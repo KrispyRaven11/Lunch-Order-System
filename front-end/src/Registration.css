@@ -1,0 +1,61 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./images/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mainContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 30px;
+  height: 500px;
+  width: 350px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoContainer header {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 40px 20px;
+  color: white;
+  display: flex;
+}
+
+.logoContent {
+  margin: 30px;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.formContent Form {
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
