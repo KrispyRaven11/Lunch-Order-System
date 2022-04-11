@@ -44,7 +44,7 @@ const Registraion = () => {
             <img src={logo} width="60rem" height="60rem"></img>
           </div>
           <header>
-            <h1>LUNCH ORDER SYSTEM</h1>
+            <h1>ISI LUNCH ORDER SYSTEM</h1>
           </header>
         </div>
         <div className="mainContent">
