@@ -58,10 +58,7 @@ const Registraion = () => {
               <div className="formContent">
                 <Form>
                   <FormGroup>
-                    <Form.Control
-                      type="text"
-                      placeholder="Email"
-                    ></Form.Control>
+                    <Form.Control type="text" placeholder="Email" />
                     <Form.Control
                       type="password"
                       placeholder="Password"
